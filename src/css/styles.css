@@ -1,24 +1,4 @@
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    column-gap: 24px;
-    row-gap: 24px;
-    width: 1440px;
-    background: white;
-    padding: 24px 156px;
-}
-.gallery-item {
-    list-style-type: none;
-    width: 360px;
-    height: 200px;
-}
-.gallery-link {
-    width: 360px;
-    height: 200px; 
-}
-.gallery-image {
-    width: 360px;
-    height: 200px;
-}
+@import url(./basic.css);
+@import url(./1-gallery.css);
+@import url(./2-form.css);
+@import url(./reset.css);

@@ -66,7 +66,7 @@ const images = [
       description: 'Lighthouse Coast Sea',
     },
   ];
-  const galleryContainer = document.querySelector('.gallery');
+const galleryContainer = document.querySelector('.gallery');
 
 const galleryMarkup = images.map(({ preview, original, description }) => `
     <li class="gallery-item">
@@ -86,3 +86,5 @@ const lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionDelay: 250,
 });
+
+
